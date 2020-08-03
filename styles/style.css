@@ -156,7 +156,7 @@ html, body{
 }
 @media(max-width:300px){
     .row{
-        padding-left: 0.4rem;
+        padding-left:0rem;
     }
     .back{
         padding-top: 3rem;
