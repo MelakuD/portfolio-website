@@ -154,13 +154,20 @@ html, body{
         padding: 0.6rem;
     }
 }
+
 @media(max-width:300px){
+    .row{
+        padding-left: 0.4rem;
+    }
+    .back{
+        padding-top: 3rem;
+    }
     .back .row .col-12 h2{
         font-size: 0.3rem;
     }
     .row .col-12 h1{
         margin-left: 0%;
         padding-left: 0;
-        font-size: 0.3rem;
+        font-size: 0.1rem;
     } 
 }
