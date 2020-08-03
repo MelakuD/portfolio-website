@@ -155,6 +155,12 @@ html, body{
     }
 }
 @media(max-width:275px){
+    .row{
+        padding-left: 0.4rem;
+    }
+    .back{
+        padding-top: 3rem;
+    }
     .back .row .col-12 h2{
         font-size: 0.3rem;
     }
