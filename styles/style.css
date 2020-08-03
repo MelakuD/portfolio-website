@@ -45,7 +45,7 @@ html, body{
     color: black;
 }
 .back{
-    padding-top: 4rem;
+    padding-top: 6rem;
     background-color: rgba(34, 34, 34, 0.26);
 }
 .row{
@@ -155,8 +155,11 @@ html, body{
     }
 }
 @media(max-width:278px){
+    .back .row .col-12 h2{
+        font-size: 0.4rem;
+    }
     .back .row .col-12 h1{
         margin-left: 0;
-        font-size: 0.8rem;
+        font-size: 0.5rem;
     } 
 }
