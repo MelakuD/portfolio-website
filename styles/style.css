@@ -158,7 +158,7 @@ html, body{
     .back .row .col-12 h2{
         font-size: 0.3rem;
     }
-    .back .row .col-12 h1{
+    .row .col-12 h1{
         margin-left: 0;
         padding-left: 0;
         font-size: 0.3rem;
