@@ -1,0 +1,74 @@
+html, body{
+    font-family: 'Acme', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.navbar{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+.head{
+    color: orangered;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-nav li{
+    padding-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    color: orangered;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover::first-letter{
+    border-bottom: orangered 2px solid;   
+}
+.navbar-nav .nav-item .nav-link:active{
+    color: white;
+}
+.container-fluid{
+    position: relative;
+    top: 15%;
+}
+.row .col-12 .display-5{
+    margin-bottom: 2.6rem;
+}
+.decor{
+    color: orangered;
+}
+.col-6{
+    width: 65%;
+}
+.fa-pencil{
+    color: white;
+}
+.lead{
+    color: orangered;
+}
+.row .col-6 .fa-graduation-cap{
+    color: white;
+}
+.first{
+    padding-left: 4rem;
+}
+.first h1{
+    padding-bottom: 2rem;
+}
+.second{
+    padding-left: 4rem;
+}
+.second h1{
+    padding-bottom: 2rem;
+}
+.bord{
+    border-left: orangered 2px solid;
+}
+
+

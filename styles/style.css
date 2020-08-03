@@ -1,0 +1,162 @@
+html, body{
+    font-family: 'Acme', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: url('../images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+}
+.navbar{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+}
+.head{
+    color: orangered;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-nav li{
+    padding-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    color: orangered;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover::first-letter{
+    border-bottom: orangered 2px solid;   
+}
+.navbar-nav .nav-item .nav-link:active{
+    color: white;
+}
+.butt{
+    background-color: rgba(41, 40, 40, 0.068);
+}
+.butt svg{
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+}
+.butt svg:hover{
+    color: black;
+}
+.back{
+    height: 90vh;
+    background-color: rgba(34, 34, 34, 0.26);
+}
+.row{
+    position: relative;
+    top: 35%;
+    text-align: center;
+    left: auto;
+    padding: 1rem;
+}
+.row .col-12 .img-fluid{
+    margin-bottom: 2rem;
+}
+.row .col-12 h2{
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.row .col-12 h1{
+    margin-left: 27%;
+    font-weight: bold;
+    animation: type 3s steps(28);
+    overflow: hidden;
+    white-space: nowrap;
+    width: 28ch;
+    border-right: 3px solid orangered; 
+}
+@keyframes type{
+    0%{
+        width: 0ch;
+        color: orangered;
+    }
+    100%{
+        width: 28ch;
+        color: white;
+    }
+}
+.social a{
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+    text-shadow: 0px 0px 5px white;
+}
+.fa-twitter:hover{
+    color: #00aced;
+    text-shadow: 0px 0px 5px white;
+}
+.fa-instagram:hover{
+    color: #517fa4;
+    text-shadow: 0px 0px 3px white;
+}
+.fa-linkedin-in:hover{
+    color: #104994;
+    text-shadow: 0px 0px 5px white;
+}
+.fa-github:hover{
+    color: #1b1919;
+    text-shadow: 0px 0px 5px white;
+}
+.fa-telegram:hover{
+    color: #3b5990;
+    text-shadow: 0px 0px 5px white;
+}
+.fa-facebook-f, .fa-twitter, .fa-instagram,
+.fa-telegram, .fa-github, .fa-linkedin-in{
+    color: white;
+}
+@media(max-width:992px){
+    .navbar-nav li{
+        padding-right: 0.6rem;
+    }
+    .navbar-nav .nav-item .nav-link{
+        font-size: 0.9rem !important;
+        font-weight: bold;
+    }
+    .row{
+        top: 25%;
+    }
+    .row .col-12 h1{
+        margin-left: 20%;
+        font-size: 2rem;
+    } 
+}
+@media(max-width:768px){
+    .row{
+        top: 18%;
+    }
+    .row .col-12 h1{
+        margin-left: 14%;
+        font-size: 2rem;
+    } 
+}
+@media(max-width:576px){
+    .row{
+        top: 14%;
+    }
+    .row .col-12 h2{
+        font-size: 0.8rem;
+    }
+    .row .col-12 h1{
+        margin-left: 10%;
+        font-size: 1.4rem;
+    } 
+    .social a{
+        font-size: 0.7rem;
+        padding: 0.6rem;
+    }
+}
+@media(max-width:278px){
+    .row .col-12 h1{
+        margin-left: 1%;
+        font-size: 0.8rem;
+    } 
+}

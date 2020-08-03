@@ -1,0 +1,80 @@
+html, body{
+    font-family: 'Acme', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.navbar{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+.head{
+    color: orangered;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-nav li{
+    padding-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    color: orangered;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover::first-letter{
+    border-bottom: orangered 2px solid;   
+}
+.navbar-nav .nav-item .nav-link:active{
+    color: white;
+}
+.padding{
+    padding: 2rem;
+}
+.padding .col-12 h1::first-letter{
+    color: orangered;
+}
+.hrs{
+    width: 10%;
+    background-color: orangered;
+    height: 2px;
+}
+.para{
+    padding-bottom: 2rem;
+}
+.first{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+}
+form{
+    box-shadow: 0px 0px 5px white;
+    padding:3rem;
+}
+form .form-group textarea{
+    height: 200px;
+    resize: none;
+}
+.fa-facebook-f,
+.fa-instagram, 
+.fa-twitter,
+.fa-telegram,
+.fa-linkedin-in{
+    padding-right: 1rem;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:500px;
+    width:600px;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}

@@ -1,0 +1,66 @@
+html, body{
+    font-family: 'Acme', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.navbar{
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+    width: 100%;
+    margin: 0;
+}
+.head{
+    color: orangered;
+    font-weight: bold;
+    font-family: cursive;
+}
+.navbar-nav li{
+    padding-right: 1rem;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 1.1rem !important;
+    font-weight: bold;
+    color: orangered;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: white;
+}
+.navbar-nav .nav-item .nav-link:hover::first-letter{
+    border-bottom: orangered 2px solid;   
+}
+.navbar-nav .nav-item .nav-link:active{
+    color: white;
+}
+.butt{
+    background-color: rgba(41, 40, 40, 0.068);
+}
+.butt svg{
+    background-color: orangered;
+    border-radius: 50%;
+    color: white;
+}
+.butt svg:hover{
+    color: black;
+}
+.container-fluid{
+    position: relative;
+    top: 10%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+.row .col-12 h1{
+    padding-bottom: 4rem;
+    font-weight: bold;
+}
+.row .col-8 p{
+    font-size: 1.2rem;
+}
+.discr .col-4 p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.col-12 h1::first-letter{
+    color: orangered;
+}
