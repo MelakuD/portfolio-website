@@ -160,6 +160,7 @@ html, body{
     }
     .back .row .col-12 h1{
         margin-left: 0;
+        padding-left: 0;
         font-size: 0.5rem;
     } 
 }
