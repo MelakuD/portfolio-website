@@ -154,12 +154,12 @@ html, body{
         padding: 0.6rem;
     }
 }
-@media(max-width:278px){
+@media(max-width:275px){
     .back .row .col-12 h2{
         font-size: 0.3rem;
     }
     .row .col-12 h1{
-        margin-left: 0;
+        margin-left: 0%;
         padding-left: 0;
         font-size: 0.3rem;
     } 
