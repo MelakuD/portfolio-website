@@ -154,7 +154,7 @@ html, body{
         padding: 0.6rem;
     }
 }
-@media(max-width:275px){
+@media(max-width:300px){
     .row{
         padding-left: 0.4rem;
     }
